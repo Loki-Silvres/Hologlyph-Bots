@@ -1,6 +1,0 @@
-{
-  "package_name": "my_robot_interfaces",
-  "non_idl_tuples": [
-    "/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/my_robot_interfaces:srv/NextGoal.srv"
-  ]
-}

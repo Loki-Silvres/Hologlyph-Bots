@@ -1,5 +1,0 @@
-[console_scripts]
-controller = hb_task_1b.controller:main
-service_node = hb_task_1b.service_node:main
-test = hb_task_1b.test001:main
-

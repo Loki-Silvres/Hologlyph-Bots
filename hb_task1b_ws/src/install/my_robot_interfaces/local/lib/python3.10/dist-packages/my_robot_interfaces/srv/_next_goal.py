@@ -1,1 +1,0 @@
-/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_next_goal.py
