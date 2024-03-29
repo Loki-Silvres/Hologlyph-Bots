@@ -1,0 +1,9 @@
+source;share/hb_task_1a/hook/pythonpath.ps1
+source;share/hb_task_1a/hook/pythonpath.dsv
+source;share/hb_task_1a/hook/pythonpath.sh
+source;share/hb_task_1a/hook/ament_prefix_path.ps1
+source;share/hb_task_1a/hook/ament_prefix_path.dsv
+source;share/hb_task_1a/hook/ament_prefix_path.sh
+source;../../build/hb_task_1a/share/hb_task_1a/hook/pythonpath_develop.ps1
+source;../../build/hb_task_1a/share/hb_task_1a/hook/pythonpath_develop.dsv
+source;../../build/hb_task_1a/share/hb_task_1a/hook/pythonpath_develop.sh

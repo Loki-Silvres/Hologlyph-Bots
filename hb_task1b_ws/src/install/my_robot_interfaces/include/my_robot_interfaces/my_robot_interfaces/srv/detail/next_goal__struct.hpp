@@ -1,0 +1,1 @@
+/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/next_goal__struct.hpp

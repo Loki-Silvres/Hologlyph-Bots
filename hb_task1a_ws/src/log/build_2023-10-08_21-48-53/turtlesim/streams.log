@@ -1,0 +1,42 @@
+[0.075s] Invoking command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/turtlesim
+[0.106s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.227s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.241s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.242s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.275s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.279s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.472s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.691s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.768s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.775s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.043s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.363s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.378s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.379s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.379s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.404s] -- Configuring done
+[1.455s] -- Generating done
+[1.457s] -- Build files have been written to: /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim
+[1.465s] Invoked command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/turtlesim
+[1.466s] Invoking command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim -- -j12 -l12
+[1.494s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[1.500s] [  1%] Built target turtlesim__cpp
+[1.501s] failed to create symbolic link '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[1.503s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[1.503s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[1.504s] gmake[1]: *** Waiting for unfinished jobs....
+[1.508s] [ 11%] Built target turtlesim__rosidl_generator_c
+[1.511s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[1.514s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[1.525s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[1.527s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[1.528s] gmake: *** [Makefile:146: all] Error 2
+[1.530s] Invoked command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/turtlesim -- -j12 -l12

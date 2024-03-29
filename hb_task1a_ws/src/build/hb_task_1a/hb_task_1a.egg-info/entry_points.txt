@@ -1,0 +1,3 @@
+[console_scripts]
+task_1a_1523 = hb_task_1a.task_1a_1523:main
+

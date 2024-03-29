@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/NextGoal.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct NextGoal_Request {
+      int64 request_goal;
+    };
+    struct NextGoal_Response {
+      double x_goal;
+
+      double y_goal;
+
+      double theta_goal;
+
+      int64 end_of_list;
+    };
+  };
+};

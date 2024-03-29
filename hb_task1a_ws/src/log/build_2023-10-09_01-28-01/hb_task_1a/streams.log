@@ -1,0 +1,18 @@
+[0.525s] Invoking command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a': PYTHONPATH=/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a/prefix_override:/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a/build --no-deps install_data
+[0.699s] running develop
+[0.805s] running egg_info
+[0.806s] writing hb_task_1a.egg-info/PKG-INFO
+[0.806s] writing dependency_links to hb_task_1a.egg-info/dependency_links.txt
+[0.806s] writing entry points to hb_task_1a.egg-info/entry_points.txt
+[0.806s] writing requirements to hb_task_1a.egg-info/requires.txt
+[0.806s] writing top-level names to hb_task_1a.egg-info/top_level.txt
+[0.807s] reading manifest file 'hb_task_1a.egg-info/SOURCES.txt'
+[0.808s] writing manifest file 'hb_task_1a.egg-info/SOURCES.txt'
+[0.828s] running build_ext
+[0.828s] Creating /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/lib/python3.10/site-packages/hb-task-1a.egg-link (link to .)
+[0.829s] Installing draw_circle script to /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/lib/hb_task_1a
+[0.830s] 
+[0.830s] Installed /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a
+[0.830s] running install_data
+[0.830s] copying package.xml -> /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/share/hb_task_1a
+[0.853s] Invoked command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a' returned '0': PYTHONPATH=/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a/prefix_override:/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a/build --no-deps install_data

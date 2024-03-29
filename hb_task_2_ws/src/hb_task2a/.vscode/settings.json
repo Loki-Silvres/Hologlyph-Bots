@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/build/hb_task_1b",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/hb_task_1b/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/build/hb_task2b",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/build/hb_task2a",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/build/hb_task_1b",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/hb_task_1b/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/build/hb_task2b",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/build/hb_task2a",
+        "/home/lokisilvres/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

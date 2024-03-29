@@ -1,0 +1,337 @@
+<?xml version="1.0" ?>
+<!-- 
+*****************************************************************************************
+*
+*        =============================================
+*                  HB Theme (eYRC 2023-24)
+*        =============================================
+*
+*
+*  Filename:            hb_bot.urdf.xacro
+*  Created:            	11-09-2023 
+*  Last Modified:       1-10-2023
+*  Author:              Srivenkateshwar(e-yantra team)
+*  
+*****************************************************************************************
+-->
+
+
+<robot name="hb_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find hb_bot)/urdf/materials.xacro"/>
+    
+    <link name ="footprint_link">
+
+    </link>
+    <joint name="footprint_joint" type="fixed">
+         <origin
+                xyz="0.0 0.0 0.0"
+                rpy="0 0 1.047" />
+        <parent link="footprint_link"/>
+        <child link="base_link"/>
+        
+        
+    </joint>
+
+    <!--Base link-->
+    <link name ="base_link">
+        <inertial>
+            <origin xyz="0 0.0 0.28" rpy="0 0 0" />
+            <mass
+                value="0.28" />
+            <inertia
+                ixx="0.011666666666667"
+                ixy="0"
+                ixz="0"
+                iyy="0.011666666666667"
+                iyz="0"
+                izz="0.011666666666667" />    
+
+        </inertial>
+         <collision name="collision">
+            <origin
+                xyz="0 0.0 0.28"
+                rpy="0 0 0" />
+          
+            <geometry>
+                <mesh filename ="file://$(find hb_bot)/meshes/bot_1.dae" scale="0.01  0.01 0.01"/>
+                    
+            </geometry>
+        </collision>
+        <visual>
+            <origin
+                xyz="0 0 0.28"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh 
+                filename ="file://$(find hb_bot)/meshes/bot_1.dae" scale="0.01  0.01 0.01"/>
+            </geometry>
+         
+        </visual>
+    </link>
+
+    <!-- left wheel -->
+    <link name ="Left_wheel">
+ 
+        <inertial>
+            <origin
+                xyz="0 -0.05 0.0"
+                rpy="1.57 0 0" />
+            <mass
+                value="0.060" />
+            <inertia
+                ixx="1.825e-4"
+                ixy="0"
+                ixz="0.00000000"
+                iyy="1.825e-4"
+                iyz="0"
+                izz="1.825e-4" />       
+        </inertial>
+         <collision name="L_collision">
+         <origin
+                xyz="0 -0.05 0.0"
+                rpy="1.57 0 0" />
+          <geometry>
+            <cylinder length="0.13" radius="0.14"/>
+          </geometry>
+        </collision>
+
+        <visual>
+            <origin
+            xyz="0.0 0.0 0.0"
+            rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename ="file://$(find hb_bot)/meshes/wheel.stl" scale="5 5 5"/>
+            </geometry>
+           
+        </visual>
+    </link>
+    <gazebo reference="Left_wheel"> <material>Gazebo/Red</material> </gazebo>
+
+    <!-- left dummy -->
+    <link name ="left_dummy_link">
+        <inertial>
+            <origin xyz="0 0 0.0" rpy="1.57 0 0" />
+            <mass value="0.60" />
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />       
+        </inertial>
+    </link>
+
+     <!-- right_wheel -->
+    <link name ="Right_wheel">
+        <inertial>
+            <origin
+                xyz="0.0 -0.05 0.0"
+                rpy="-1.57 0.0 0.0"/>
+            <mass
+                value="0.060" />
+            <inertia
+                ixx="1.825e-4"
+                ixy="0"
+                ixz="0.00000000"
+                iyy="1.825e-4"
+                iyz="0"
+                izz="1.825e-4" /> 
+            
+        </inertial>
+         <collision name="R_collision">
+         <origin
+                xyz="0.0 -0.05 0.0"
+                rpy="-1.57 0.0 0.0" />
+          <geometry>
+            <cylinder length="0.13" radius="0.14"/>
+          </geometry>
+        </collision>
+
+        <visual>
+            <origin
+            xyz="0.0 0.0 0.0"
+            rpy="0 0 0.0" />
+            <geometry>
+                <mesh filename ="file://$(find hb_bot)/meshes/wheel.stl" scale="5 5 5"/>
+            </geometry>
+            
+        </visual>
+    </link>
+    <gazebo reference="Right_wheel"><material>Gazebo/Blue</material></gazebo>
+
+    <link name ="right_dummy_link">
+        <inertial>
+            <origin xyz="0.0 -0.05 0.0" rpy="-1.57 0.0 0.0"/>
+            <mass value="0.60" />
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+        </inertial>
+    </link>
+
+     <!-- Rear_wheel -->
+    <link name ="Rear_wheel">
+        <inertial>
+            <origin
+                xyz="0.0 -0.05 0.0"
+                rpy="1.57 -0.0 0.0" />
+            <mass
+                value="0.060" />
+            <inertia
+                ixx="1.825e-4"
+                ixy="0"
+                ixz="0.00000000"
+                iyy="1.825e-4"
+                iyz="0"
+                izz="1.825e-4" />       
+        </inertial>
+         <collision name="Rear_collision">
+         <origin
+                xyz="0.0 -0.05 0.0"
+                rpy="1.57 -0.0 0.0" />
+          <geometry>
+            <cylinder length="0.13" radius="0.14"/>
+          </geometry>
+        </collision>
+
+        <visual>
+            <origin
+            xyz="0.0 0.0 0.0"
+            rpy="0.0 0.0 0.0 " />
+            <geometry>
+                <mesh filename ="file://$(find hb_bot)/meshes/wheel.stl" scale="5 5 5"/>
+            </geometry>
+            
+        </visual>
+    </link>
+    <gazebo reference="Rear_wheel"><material>Gazebo/Green</material></gazebo>
+    
+    <link name ="rear_dummy_link">
+        <inertial>
+            <origin xyz="0.0 -0.05 0.0" rpy="1.57 -0.0 0.0" />
+            <mass value="0.060" />
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />      
+        </inertial>
+    </link>
+
+    <!-- Joint -->
+    <joint name ="Rear_wheel_joint" type="continuous" >
+        <origin
+                xyz="-0.58 -0.35 0.18"
+                rpy="0 0 2.12" />
+        <parent link="base_link"/>
+        <child link="Rear_wheel"/>
+        <axis xyz="0.0 -1.0 0.0"/>
+        <limit
+            effort="5"
+            velocity="5" />
+    </joint>
+    <!-- joint -->
+    <joint name ="Right_wheel_joint" type="continuous" >
+        <origin
+             xyz="0.58 -0.36 0.18"
+            rpy="0.0 0.0 -2.12" />
+        <parent link="base_link"/>
+        <child link="Right_wheel"/>
+        <axis xyz="0.0 1.0 0.0"/>
+         <limit
+            effort="5"
+            velocity="5" />
+    </joint>
+    <!-- Joint -->
+    <joint name ="Left_wheel_joint" type="continuous" >
+        <origin
+                xyz="0.0 0.68 0.18"
+                rpy="0 0 0" />
+        <parent link="base_link"/>
+        <child link="Left_wheel"/>
+        <axis xyz="0.0 1.0 0.0"/>
+         <limit
+            effort="5"
+            velocity="5" />
+    </joint>
+
+    <!-- Dummy Joints -->
+    <joint name ="rear_dummy_joint" type="continuous" >
+        <origin
+                xyz="-0.58 -0.35 0.18"
+                rpy="0 0 3.6652" /> 
+                <!-- 2pi/3 + pi/2 = 2.09 + 1.57 -->
+        <parent link="base_link"/>
+        <child link="rear_dummy_link"/>
+        <axis xyz="0.0 -1.0 0.0"/>
+        <limit
+            effort="5"
+            velocity="5" />
+    </joint>
+    <!-- joint -->
+    <joint name ="right_dummy_joint" type="continuous" >
+        <origin
+             xyz="0.58 -0.36 0.18"
+            rpy="0.0 0.0 -0.5236" />
+            <!-- -2pi/3 + pi/2 = -2.09+1.57 -->
+        <parent link="base_link"/>
+        <child link="right_dummy_link"/>
+        <axis xyz="0.0 1.0 0.0"/>
+         <limit
+            effort="5"
+            velocity="5" />
+    </joint>
+    <!-- Joint -->
+    <joint name ="left_dummy_joint" type="continuous" >
+        <origin
+                xyz="0.0 0.68 0.18"
+                rpy="0 0 1.57" />
+                <!-- 0+1.57 -->
+        <parent link="base_link"/>
+        <child link="left_dummy_link"/>
+        <axis xyz="0.0 1.0 0.0"/>
+         <limit
+            effort="5"
+            velocity="5" />
+    </joint>
+
+    <!-- ros_control plugin -->
+    <gazebo>
+        <plugin name="right_force" filename="libgazebo_ros_force.so" >
+            <ros>
+                <namespace>/hb_bot_1</namespace>
+                <remapping>gazebo_ros_force:=right_wheel_force</remapping>
+            </ros>
+            <link_name>right_dummy_link</link_name>
+            <!-- not to be changed -->
+            <force_frame>link</force_frame> 
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin name="rear_force" filename="libgazebo_ros_force.so" >
+            <ros>
+                <namespace>/hb_bot_1</namespace>
+                <remapping>gazebo_ros_force:=rear_wheel_force</remapping>
+            </ros>
+            <link_name>rear_dummy_link</link_name>
+            <!-- not to be changed -->
+            <force_frame>link</force_frame> 
+        </plugin>
+    </gazebo>
+
+    <gazebo>
+        <plugin name="left_force" filename="libgazebo_ros_force.so" >
+            <ros>
+                <namespace>/hb_bot_1</namespace>
+                <remapping>gazebo_ros_force:=left_wheel_force</remapping>
+            </ros>
+            <link_name>left_dummy_link</link_name>
+            <!-- not to be changed -->
+            <force_frame>link</force_frame> 
+        </plugin>
+    </gazebo>
+    
+    <gazebo>
+        <plugin name="object_controller_1" filename="libgazebo_ros_planar_move.so">
+            <ros>
+                <namespace>/hb_bot_1</namespace>
+                <remapping>cmd_vel:=cmd_vel</remapping>
+                <remapping>odom:=odom_pose</remapping>
+            </ros>
+            <robotBaseFrame>footprint_link</robotBaseFrame>
+        </plugin>
+    </gazebo>
+ 
+   
+</robot>
+

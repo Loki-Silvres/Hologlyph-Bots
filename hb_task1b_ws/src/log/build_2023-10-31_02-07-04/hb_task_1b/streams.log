@@ -1,0 +1,19 @@
+[0.764s] Invoking command in '/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b': PYTHONPATH=/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b/prefix_override:/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/install/hb_task_1b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b/build --no-deps install_data
+[0.993s] running develop
+[1.099s] running egg_info
+[1.099s] writing hb_task_1b.egg-info/PKG-INFO
+[1.099s] writing dependency_links to hb_task_1b.egg-info/dependency_links.txt
+[1.099s] writing entry points to hb_task_1b.egg-info/entry_points.txt
+[1.099s] writing requirements to hb_task_1b.egg-info/requires.txt
+[1.099s] writing top-level names to hb_task_1b.egg-info/top_level.txt
+[1.101s] reading manifest file 'hb_task_1b.egg-info/SOURCES.txt'
+[1.101s] writing manifest file 'hb_task_1b.egg-info/SOURCES.txt'
+[1.127s] running build_ext
+[1.128s] Creating /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/install/hb_task_1b/lib/python3.10/site-packages/hb-task-1b.egg-link (link to .)
+[1.128s] Installing controller script to /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/install/hb_task_1b/lib/hb_task_1b
+[1.129s] Installing service_node script to /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/install/hb_task_1b/lib/hb_task_1b
+[1.129s] Installing test script to /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/install/hb_task_1b/lib/hb_task_1b
+[1.129s] 
+[1.129s] Installed /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b
+[1.129s] running install_data
+[1.153s] Invoked command in '/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b' returned '0': PYTHONPATH=/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b/prefix_override:/home/lokisilvres/eyrc_hb/hb_task1b_ws/src/install/hb_task_1b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lokisilvres/eyrc_hb/hb_task1b_ws/src/build/hb_task_1b/build --no-deps install_data

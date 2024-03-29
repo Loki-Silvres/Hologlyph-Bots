@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="e_camera">
+    <link name="camera_1_link">
+      <gravity>false</gravity>
+      <inertial>
+        <mass>0.1</mass>
+        <inertia>
+          <ixx>0.000166667</ixx>
+          <iyy>0.000166667</iyy>
+          <izz>0.000166667</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://e_camera/meshes/camera.dae</uri>
+            <scale>0.03 0.03 0.03</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://e_camera/meshes/camera.dae</uri>
+            <scale>0.03 0.03 0.03</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <sensor name='camera' type='camera'>
+        <pose>0 0 0 1.57 1.57 1.57</pose>
+        <visualize>true</visualize>
+        <update_rate>10</update_rate>
+        <camera name='camera_1'>
+            <horizontal_fov>1.2</horizontal_fov>
+            <aspect_ratio>2.0</aspect_ratio>
+            
+            <image>
+                <width>500</width>
+							  <height>500</height>
+                <format>R8G8B8</format>
+            </image>
+            <clip>
+                <near>0.2</near>
+                <far>800</far>
+            </clip>
+        </camera>
+        <plugin name='camera_control' filename='libgazebo_ros_camera.so'>
+						<alwaysOn>true</alwaysOn>
+						<updateRate>30</updateRate>
+						<cameraName>gazebo/overhead_cam</cameraName>
+						<imageTopicName>image_rect_color</imageTopicName>
+						<cameraInfoTopicName>camera_info</cameraInfoTopicName>
+						<frameName>overhead_cam_frame</frameName>
+				</plugin>
+        <always_on>1</always_on>
+				<update_rate>30</update_rate>
+				        
+      </sensor>
+
+    </link>
+
+  </model>
+
+</sdf>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!-- 
+*****************************************************************************************
+*
+*        =============================================
+*                  HB Theme (eYRC 2023-24)
+*        =============================================
+*
+*
+*  Filename:			gazebo.world
+*  Created:				12/07/2023
+*  Last Modified:	    18/09/2023
+*  Modified by:         Srivenkateshwar
+*  Author:				e-Yantra Team
+*  
+*****************************************************************************************
+-->
+
+    <?xml version="1.0" ?>
+    <sdf version="1.7">
+        <world name="default">       
+            <scene>
+                <shadows>false</shadows>
+                <ambient>0.5 0.5 0.5 1.0</ambient>
+            <grid>false</grid>    
+            <sky>        
+                <time>12</time>
+                <sunrise>10</sunrise>
+                <sunset>21</sunset>
+                <clouds>
+                <humidity>0</humidity>
+                <cloud_ambient>0.9 0.9 1.0 1.0</cloud_ambient>
+                </clouds>        
+            </sky>
+            </scene>
+
+            <light type="directional" name="sun">
+                <pose>0 0 30 0 0 0</pose>
+                <cast_shadows>false</cast_shadows>
+                <diffuse>.9 .9 .9 1</diffuse>
+                <specular>.1 .1 .1 1</specular>
+                <attenuation>
+                    <range>20</range>
+                </attenuation>
+                <direction>-1 -1 -1</direction>
+            </light>
+
+           
+
+            <include>
+                <uri>model://ground_surface</uri>
+                <pose>0 0 0.02 0 0 0</pose>
+                <static>true</static>
+            </include>
+
+            <include>
+                <uri>model://arena</uri>
+                <pose> 0 0 0.03 0 0 0 </pose>
+                <static>true</static>
+
+            </include>
+
+            <include>
+                <uri>model://e_camera</uri>
+                <pose>0 0 18 0 0 1.57</pose>
+            </include>
+
+            
+
+                    
+            
+    
+        </world>
+    </sdf>

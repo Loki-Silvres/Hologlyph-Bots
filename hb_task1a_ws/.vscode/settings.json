@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/build/my_robot_controller",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/build/hb_task_1a",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/build/my_robot_controller",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/build/hb_task_1a",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/hb_task_1a",
+        "/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/hb_task_1a/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

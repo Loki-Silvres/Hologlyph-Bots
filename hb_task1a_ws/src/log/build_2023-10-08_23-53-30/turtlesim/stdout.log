@@ -1,0 +1,6 @@
+[  1%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[ 21%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 31%] Built target turtlesim__rosidl_typesupport_cpp
+[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp

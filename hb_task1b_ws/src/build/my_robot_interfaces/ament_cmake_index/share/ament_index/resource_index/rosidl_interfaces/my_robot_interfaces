@@ -1,0 +1,4 @@
+srv/NextGoal.idl
+srv/NextGoal.srv
+srv/NextGoal_Request.msg
+srv/NextGoal_Response.msg

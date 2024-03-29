@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<robot name="e_holo" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <xacro:property name="body_color" value="Gazebo/Red" />
+    <xacro:property name="blue_color" value="Gazebo/Blue" />
+    <xacro:property name="green_color" value="Gazebo/Green" />
+    <xacro:property name="silver_color" value="Gazebo/Silver" />
+    <xacro:property name="white_color" value="Gazebo/White" />
+    <xacro:property name="black_color" value="Gazebo/Black" />
+    <xacro:property name="orange_color" value="Gazebo/Orange" />
+
+</robot>

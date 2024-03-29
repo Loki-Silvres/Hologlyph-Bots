@@ -1,0 +1,159 @@
+[0.517s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'my_robot_controller']
+[0.518s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['my_robot_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe7d863b9a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe7d863ba90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe7d863ba90>>)
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.542s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(hb_task_1a) by extension 'ros'
+[0.551s] DEBUG:colcon.colcon_core.package_identification:Package 'hb_task_1a' with type 'ros.ament_python' and name 'hb_task_1a'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) ignored
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.588s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hb_task_1a' in 'hb_task_1a'
+[0.588s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim' in 'ros_tutorials/turtlesim'
+[0.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.617s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install
+[0.624s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lokisilvres/eyrc_hb/hb_task1a_ws/install
+[0.639s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller', 'merge_install': False, 'path': '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/my_robot_controller', 'symlink_install': True, 'test_result_base': None}
+[0.729s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.738s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/my_robot_controller' with build type 'ament_python'
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.756s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.756s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.971s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/my_robot_controller'
+[0.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.019s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller': PYTHONPATH=/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/prefix_override:/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/build --no-deps install_data
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath_develop')
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/prefix_override:/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/build --no-deps install_data
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/share/my_robot_controller/hook/pythonpath_develop.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/share/my_robot_controller/hook/pythonpath_develop.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/build/my_robot_controller/share/my_robot_controller/hook/pythonpath_develop.sh'
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller' for CMake module files
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller' for CMake config files
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/bin'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[1.581s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/lib/python3.10/site-packages'
+[1.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[1.590s] Level 1:colcon.colcon_core.environment:checking '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/bin'
+[1.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/package.sh'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/package.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[1.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[1.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.599s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.610s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.619s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/local_setup.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/_local_setup_util_ps1.py'
+[1.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/setup.ps1'
+[1.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/local_setup.sh'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/_local_setup_util_sh.py'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/setup.sh'
+[1.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/local_setup.bash'
+[1.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/setup.bash'
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/local_setup.zsh'
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lokisilvres/eyrc_hb/hb_task1a_ws/src/install/setup.zsh'
