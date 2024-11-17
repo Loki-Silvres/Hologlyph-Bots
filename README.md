@@ -109,5 +109,4 @@ Hologlyph-Bots/
 - **E-Yantra**: For organizing this inspiring robotics competition.
 - **Team Members**: EYRC_HB_1523:
   - [Alok Raj](https://github.com/Loki-Silvres)
-  - [Aman Anand](https://github.com/Aman3214) 
 
