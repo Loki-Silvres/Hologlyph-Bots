@@ -22,31 +22,6 @@ This project is part of the E-Yantra Robotics Competition, where participants de
 
 ---
 
-## Results
-
-### **Submission Playlist**
-- [Click here to view our Submission Playlist](https://youtube.com/playlist?list=PL_9--5xsFYUQ-xg70fmYQrzXn2ip_9O3C&si=z0v1tnEO03IPCXnJ)
-
----
-
-### **Task Demonstrations**
-
-#### **Task 5: Final Arena with Bots**
-- **Arena Layout**  
-  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_arena_with_Bots.jpg?raw=true" width="450" alt="Task 5 Arena with Bots" />
-
-- **Task Result**  
-  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_result.jpg?raw=true" width="450" alt="Task 5 Result" />
-
-#### **Task 4: Artistic Shape Drawings**
-- **Triangle Drawing**  
-  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_triangle.png?raw=true" width="320" alt="Task 4 Triangle Drawing" />
-
-- **Rectangle Drawing**  
-  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_rectangle.png?raw=true" width="579" alt="Task 4 Rectangle Drawing" />
-
----
-
 ## Repository Structure
 
 ```plaintext
@@ -85,7 +60,11 @@ Hologlyph-Bots/
    cd ~/Hologlyph-Bots/
    ```
 
-2. Running Simulations:
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Running Simulations:
    
 - Run specific simulation tasks with the help of their corresponding documentations:
 
@@ -93,7 +72,7 @@ Hologlyph-Bots/
   - [Task1B](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/hb_task1b_ws#readme)
   - [Task2](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/hb_task_2_ws#readme)
 
-3. Hardware Implementation:
+4. Hardware Implementation:
    
 - [STL files for 3D printing](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/STL%20files)
 - [PCB and Circuit Design](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/PCB%20and%20Circuit)
@@ -104,6 +83,30 @@ Hologlyph-Bots/
 
 ---
 
+## Results
+
+### **Submission Playlist**
+- [Click here to view our Submission Playlist](https://youtube.com/playlist?list=PL_9--5xsFYUQ-xg70fmYQrzXn2ip_9O3C&si=z0v1tnEO03IPCXnJ)
+
+---
+
+### **Task Demonstrations**
+
+#### **Task 5: Final Arena with Bots**
+- **Arena Layout**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_arena_with_Bots.jpg?raw=true" width="450" alt="Task 5 Arena with Bots" />
+
+- **Task Result**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_result.jpg?raw=true" width="450" alt="Task 5 Result" />
+
+#### **Task 4: Artistic Shape Drawings**
+- **Triangle Drawing**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_triangle.png?raw=true" width="320" alt="Task 4 Triangle Drawing" />
+
+- **Rectangle Drawing**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_rectangle.png?raw=true" width="579" alt="Task 4 Rectangle Drawing" />
+
+---
 
 ## Acknowledgments
 - **E-Yantra**: For organizing this inspiring robotics competition.
