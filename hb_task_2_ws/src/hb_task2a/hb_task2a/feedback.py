@@ -43,7 +43,7 @@ class ArUcoDetector(Node):
         self.get_logger().info("Feedback has been started.")
         # Subscribe the topic /camera/image_raw
         self.img_sub = self.create_subscription(Image, 
-                                    '/camera1/image_raw', 
+                                    '/camera/image_raw', 
                                     self.image_callback, 
                                     10)
         self.aruco = aruco.ArucoDetector(aruco.getPredefinedDictionary(aruco.DICT_4X4_1000),
@@ -54,13 +54,13 @@ class ArUcoDetector(Node):
                                                 '/detected_aruco', 
                                                 10)
         # self.timer = self.create_timer(0.5, self.show_pose_callback)
-        # self.show_pose = False
+        # self.show_pose = False 
 
     def image_callback(self, msg: Image):
 
         #convert ROS image to opencv image
 
-        cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8',)
+        cv_image = self.bridge.imgmsg_to_cv2(msg)
         # _,cv_image = cv.threshold(cv_image,100,200,cv.THRESH_BINARY)
         # cv.imshow('re',cv_image)
         # cv.waitKey(0)
@@ -69,10 +69,12 @@ class ArUcoDetector(Node):
 
         corners, ids, reject = self.aruco.detectMarkers(cv_image)
         # aruco.drawDetectedMarkers(cv_image, corners, ids, [0,0,255])
+        # cv.imshow('re',cv_image)
+        # cv.waitKey(0)
         corners = np.array(corners)
         ids = np.array(ids)
 
-        if(np.argmin(ids)== 1):
+        if(1 in ids):
 
             bot_corners = corners[ids==1][0]
             bot_pos = np.sum(bot_corners,axis = 0)/4
