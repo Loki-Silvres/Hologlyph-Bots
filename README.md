@@ -79,8 +79,9 @@ Hologlyph-Bots/
 ### **Installation**
 1. Clone the repository:
    ```bash
+   cd 
    git clone https://github.com/Loki-Silvres/Hologlyph-Bots.git
-   cd Hologlyph-Bots
+   cd ~/Hologlyph-Bots/
    ```
 
 2. Launch the arena simulation:
