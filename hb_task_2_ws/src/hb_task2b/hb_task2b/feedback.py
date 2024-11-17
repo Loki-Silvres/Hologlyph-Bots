@@ -40,7 +40,7 @@ class ArUcoDetector(Node):
         # Subscribe the topic /camera/image_raw
 
         self.img_sub = self.create_subscription(Image, 
-                                    '/camera/image_rect', 
+                                    '/camera/image_raw', 
                                     self.image_callback, 
                                     10)
         self.aruco = aruco.ArucoDetector(aruco.getPredefinedDictionary(aruco.DICT_4X4_1000),
@@ -48,13 +48,13 @@ class ArUcoDetector(Node):
         self.bridge = CvBridge()
 
         self.det_ar_pub_1 = self.create_publisher(Pose2D,
-                                                '/pen1_pose', 
+                                                '/detected_aruco_1', 
                                                 10)
         self.det_ar_pub_2 = self.create_publisher(Pose2D,
-                                                '/pen2_pose', 
+                                                '/detected_aruco_2', 
                                                 10)
         self.det_ar_pub_3 = self.create_publisher(Pose2D,
-                                                '/pen3_pose', 
+                                                '/detected_aruco_3', 
                                                 10)
         self.timer_time = 2
         self.timer1 = self.create_timer(self.timer_time, self.show_pose_callback1)
