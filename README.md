@@ -15,11 +15,6 @@ This repository contains the source code and resources developed by **Team eyrc_
 - Completes various tasks in a simulated arena and with physical hardware, demonstrating advanced robotics capabilities.
 - Leverages robotic motion control to draw complex shapes like triangles, rectangles, and intricate mathematical functions.
 
-### **Purpose**
-This project is part of the E-Yantra Robotics Competition, where participants design robots to solve real-world challenges. In this *Hologlyph Bots* theme:
-- Robots must autonomously navigate an region.
-- Teams create artistic outputs leveraging the robot's mobility.
-
 ---
 
 ## Repository Structure
