@@ -50,13 +50,18 @@ class HBTask1BController(Node):
         self.send_request.request_goal = self.index
         self.future = self.cli.call_async(self.send_request)
    def bot_pose(self,msg: Odometry):
-       
+       global pose_x
+       global pose_y
+       global pose_theta
        pose_x = msg.pose.pose.position.x
        pose_y = msg.pose.pose.position.y
        rot_coord = msg.pose.pose.orientation
        (roll,pitch,pose_theta)=euler_from_quaternion([rot_coord.x, rot_coord.y, rot_coord.z, rot_coord.w])
 
 def main(args=None):
+    global pose_x
+    global pose_y
+    global pose_theta
     rclpy.init(args=args)
     
     # Create an instance of the EbotController class
