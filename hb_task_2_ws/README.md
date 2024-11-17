@@ -1,4 +1,4 @@
-# Task 1B
+# Task 2A
 
 In this task, the robot autonomously draws shapes such as **rectangles, squares, and triangles**, based on randomly chosen functions (generate_rectangle(), generate_square(), generate_triangle()). A **Proportional Controller (P-Control)** is used for this task as well but unlike the previous task (1b), this task is more physically aligned with real-world dynamics through the application of wrench forces on the wheels as is the case with motors and friction, adjusting the robot's speed based on the error between its current position and the target trajectory. The inverse kinematics are utilized and the resultant force is used to drive the robot.
 
