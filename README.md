@@ -51,10 +51,19 @@ This project is part of the E-Yantra Robotics Competition, where participants de
 
 ```plaintext
 Hologlyph-Bots/
-├── Arena photos/          # Images of the arena and task results
-├── Code/                  # Source code for robot control and drawing
-├── Documentation/         # Detailed explanations of algorithms and tasks
-└── README.md              # This file
+├── Arduino Code
+├── Arena photos
+├── Aruco_Markers
+├── cam_calibration_640x480
+├── hb_task1a_ws
+├── hb_task1b_ws
+├── hb_task_2_ws
+├── hb_task_4_ws
+├── hb_task_5_ws
+├── hb_task_6_ws
+├── PCB and Circuit
+├── STL files
+└── README.md
 ```
 
 ---
