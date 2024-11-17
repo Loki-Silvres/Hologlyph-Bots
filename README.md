@@ -72,9 +72,10 @@ Hologlyph-Bots/
 
 ### **Prerequisites**
 - Python 3.8+
+- Ubuntu 22.04 LTS
 - ROS-HUMBLE (Robot Operating System)
 - Gazebo-Classic Simulator
-- Required libraries: `numpy`, `matplotlib`, `scipy`
+- Required libraries: `numpy`, `matplotlib`, `scipy`, `opencv-python`
 
 ### **Installation**
 1. Clone the repository:
@@ -84,16 +85,22 @@ Hologlyph-Bots/
    cd ~/Hologlyph-Bots/
    ```
 
-2. Launch the arena simulation:
-   ```bash
+2. Running Simulations:
    
-   ```
+- Run specific simulation tasks with the help of their corresponding documentations:
 
-### **Running Tasks**
-Run specific tasks with the corresponding scripts:
-```bash
+  - [Task1A](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/hb_task1a_ws#readme)
+  - [Task1B](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/hb_task1b_ws#readme)
+  - [Task2](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/hb_task_2_ws#readme)
 
-```
+3. Hardware Implementation:
+   
+- [STL files for 3D printing](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/STL%20files)
+- [PCB and Circuit Design](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/PCB%20and%20Circuit)
+- [Arena flex-printing](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/Arena%20photos)
+- [Overhead Camera Calibration](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/cam_calibration_640x480)
+- [ESP32-code](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/Arduino%20Code)
+- [Aruco-Markers](https://github.com/Loki-Silvres/Hologlyph-Bots/tree/main/Aruco_Markers)
 
 ---
 
