@@ -94,7 +94,7 @@ Hologlyph-Bots/
 - **Task Result**  
   <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_result.jpg?raw=true" width="450" alt="Task 5 Result" />
 
-#### **Task 4: Artistic Shape Drawings**
+#### **Task 4: Shape Drawings**
 - **Triangle Drawing**  
   <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_triangle.png?raw=true" width="320" alt="Task 4 Triangle Drawing" />
 
