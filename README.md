@@ -89,7 +89,8 @@ Hologlyph-Bots/
 
 #### **Task 5: Final Arena with Bots**
 - **Arena Layout**  
-  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_arena_with_Bots.jpg?raw=true" width="450" alt="Task 5 Arena with Bots" />
+  <img src="https://github.com/user-attachments/assets/e0325b9f-6a9e-483c-a289-086f58bf5257" width="450" alt="Task 5 Arena with Bots" />
+
 
 - **Task Result**  
   <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_result.jpg?raw=true" width="450" alt="Task 5 Result" />
